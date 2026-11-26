@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bizzy Animation</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
+
+header {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffcc00;
+    font-size: 30px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #171717, #292929);
+}
+
+.hero h2 {
+    font-size: 38px;
+    color: #ffcc00;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ffcc00;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #ffcc00;
+    margin-bottom: 25px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #222;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 15px 0;
+    color: #ffcc00;
+}
+
+footer {
+    background: #111;
+    padding: 25px;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎬 BIZZY ANIMATION</h1>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#animations">Animations</a>
+        <a href="#school">School</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero" id="home">
+    <h2>Welcome to Bizzy Animation</h2>
+    <p>Creativity, Entertainment and Cartoon Stories.</p>
+    <p>Welcome to my world of animation!</p>
+    <a href="#animations" class="btn">Watch My Animations</a>
+</div>
+
+<section class="about" id="about">
+    <h2>About Me</h2>
+
+    <p>
+        Welcome to Bizzy Animation! I am Bizzy, a creative young animator,
+        cartoon creator, dancer and artist from Rwanda.
+        I love creating funny stories, entertaining cartoons,
+        drawing and sharing creativity with the world.
+    </p>
+</section>
+
+<section id="animations">
+    <h2>My Animations</h2>
+
+    <div class="gallery">
+
+        <div class="card">
+            <h3>Funny Cartoons</h3>
+            <p>Enjoy funny cartoon stories and comedy.</p>
+        </div>
+
+        <div class="card">
+            <h3>Stories</h3>
+            <p>Discover creative stories through animation.</p>
+        </div>
+
+        <div class="card">
+            <h3>Creative Videos</h3>
+            <p>Explore my creativity and animated content.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="school">
+    <h2>My School</h2>
+
+    <div class="card">
+        <h3>Education</h3>
+        <p>Learning, creativity and building my future.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <p>Follow Bizzy Animation on social media.</p>
+
+    <p>
+        TikTok:
+        <a href="https://www.tiktok.com/@bizzyanimation1"
+           target="_blank">@bizzyanimation1</a>
+    </p>
+
+    <p>
+        Facebook: Bizzy Animation
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Bizzy Animation</p>
+    <p>Made with creativity in Rwanda 🇷🇼</p>
+</footer>
+
+</body>
+</html>
